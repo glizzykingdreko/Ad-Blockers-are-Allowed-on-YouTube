@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Ad blockers are allowed on YouTube",
+    "version": "1.0.0",
+    "description": "Constantly checks and removes 'Ad blockers are not allowed on YouTube' popup and clicks the play button on YouTube.",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": {
+        "16": "img/16x16.png",
+        "19": "img/19x19.png",
+        "38": "img/38x38.png",
+        "48": "img/48x48.png",
+        "128": "img/128x128.png"
+    }
+}
