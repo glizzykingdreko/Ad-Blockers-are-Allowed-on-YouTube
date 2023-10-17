@@ -16,7 +16,7 @@ This Chrome Extension is a quick workaround for those who, like me, love to have
   - [My links](#my-links)
 
 ## Background
-The recent feature by YouTube, which discourages the use of ad blockers by displaying a popup message, necessitated a simple yet effective solution to avoid any disruptions, especially while enjoying music during coding sessions. You can read more about this issue and the motivation behind creating this extension in my [article](https://glizzykingdreko.me).
+The recent feature by YouTube, which discourages the use of ad blockers by displaying a popup message, necessitated a simple yet effective solution to avoid any disruptions, especially while enjoying music during coding sessions. You can read more about this issue and the motivation behind creating this extension in my [Medium article](https://medium.com/@glizzykingdreko/ad-blockers-are-allowed-on-youtube-40a040a2d039?postPublishedType=initial).
 
 ## How it Works
 The extension comprises three main files: `background.js`, `content.js`, and `manifest.json`.
@@ -74,6 +74,7 @@ Bye bye ads! 👋
 
 ## My links
 
+- [Medium Article](https://medium.com/@glizzykingdreko/ad-blockers-are-allowed-on-youtube-40a040a2d039?postPublishedType=initial)
 - [Website](https://glizzykingdreko.github.io/)
 - [GitHub](https://github.com/glizzykingdreko)
 - [Twitter](https://mobile.twitter.com/glizzykingdreko)
